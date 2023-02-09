@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: SoDoSans;
+    src: url(/fonts/SoDoSans-Regular.fb96a065.woff);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: SoDoSans;
+    src: url(/fonts/SoDoSans-SemiBold.6aebdeb6.woff);
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: SoDoSans;
+    src: url(/fonts/SoDoSans-Bold.49f6eaa3.woff);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+
+* {
+    font-family: 'SoDoSans', sans-serif;
+}
