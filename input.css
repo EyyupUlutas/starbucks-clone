@@ -31,3 +31,8 @@
 * {
     font-family: 'SoDoSans', sans-serif;
 }
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
